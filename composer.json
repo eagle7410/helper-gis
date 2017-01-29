@@ -19,10 +19,14 @@
     },
     "minimum-stability": "stable",
     "version": "1.0.1",
-    "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/eagle7410/helper-gis/tree/1.0.0"
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
+        }
     }
-    ]
 }
