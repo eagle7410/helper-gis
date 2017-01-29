@@ -1,0 +1,17 @@
+{
+    "name": "eagle/helper-gis",
+    "description": "Helper for post gis",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Stcherbina",
+            "email": "orel1939@mail.ru"
+        }
+    ],
+    "require-dev": {
+        "evert/phpdoc-md" : "~0.2.0",
+        "phpdocumentor/phpdocumentor" : "2.*"
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="2.8.5">
+  <partials/>
+  <file path="GeoText.php" generated-path="GeoText.html" hash="d392b6a023c73806b4210a1b6b5d1ce2" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: igor
+Date: 27.12.16
+Time: 16:13</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="eagle\helperGis\libs" line="12" package="Default">
+      <extends/>
+      <name>GeoText</name>
+      <full_name>\eagle\helperGis\libs\GeoText</full_name>
+      <docblock line="12">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="12" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="eagle\helperGis\libs" line="20" package="Default">
+        <name>getPointString</name>
+        <full_name>\eagle\helperGis\libs\GeoText::getPointString()</full_name>
+        <docblock line="20">
+          <description>Return coordinates string</description>
+          <long-description></long-description>
+          <tag name="param" line="20" description="&lt;p&gt;=&gt; float, 'lat'=&gt;float ]$arCoordinates&lt;/p&gt;" type="\eagle\helperGis\libs\['lng'" variable="$arCoordinates">
+            <type>\eagle\helperGis\libs\['lng'</type>
+          </tag>
+          <tag name="param" line="20" description="" type="string" variable="$delimiter">
+            <type>string</type>
+          </tag>
+          <tag name="return" line="20" description="" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$arCoordinates</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$delimiter</name>
+          <default>' '</default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="eagle\helperGis\libs" line="31" package="Default">
+        <name>isEquallyPoint</name>
+        <full_name>\eagle\helperGis\libs\GeoText::isEquallyPoint()</full_name>
+        <docblock line="31">
+          <description>Check point one is equally point two.</description>
+          <long-description></long-description>
+          <tag name="param" line="31" description="&lt;p&gt;=&gt; float, 'lat'=&gt;float ] $point1&lt;/p&gt;" type="\eagle\helperGis\libs\['lng'" variable="$point1">
+            <type>\eagle\helperGis\libs\['lng'</type>
+          </tag>
+          <tag name="param" line="31" description="&lt;p&gt;=&gt; float, 'lat'=&gt;float ] $point2&lt;/p&gt;" type="\eagle\helperGis\libs\['lng'" variable="$point2">
+            <type>\eagle\helperGis\libs\['lng'</type>
+          </tag>
+          <tag name="return" line="31" description="" type="boolean">
+            <type>boolean</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$point1</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$point2</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="eagle\helperGis\libs" line="42" package="Default">
+        <name>getPolygonString</name>
+        <full_name>\eagle\helperGis\libs\GeoText::getPolygonString()</full_name>
+        <docblock line="42">
+          <description>Return polygon string</description>
+          <long-description></long-description>
+          <tag name="param" line="42" description="&lt;p&gt;=&gt; float, 'lat'=&gt;float ],..]$arPoints&lt;/p&gt;" type="\eagle\helperGis\libs\[['lng'" variable="$arPoints">
+            <type>\eagle\helperGis\libs\[['lng'</type>
+          </tag>
+          <tag name="param" line="42" description="" type="integer" variable="$EPSGCode">
+            <type>integer</type>
+          </tag>
+          <tag name="return" line="42" description="" type="boolean|string">
+            <type>boolean</type>
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$arPoints</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$EPSGCode</name>
+          <default>4326</default>
+          <type>integer</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="12" code="PPC:ERR-50005">No summary for class \eagle\helperGis\libs\GeoText</error>
+    </parse_markers>
+    <source>eJydVG1P2zAQ/p5fcUMVSaos0DIxqVCYVFhVaUOIdJ+gmtzUbS0cO7NdbdXgv88vCXmhCJg/JPHl7rm75x779Dxf595Bt+tBF0YCI4UXMN/C9TpPFBdZbOw/JBYDICsuzO5C+wyg/znu9ePesbFMSaYtveNB70hvDzyPoQzLHKUYMFpRfLfGNMdiTOQdJXN54nleSpGUMMZ8iv8o768HetkqzOrCDVYbwSDlXCwI0wklSCUIW5UOX3IkUAa3PmUrH4ZnsKQcqQh8ipQ/PLM7mHWQGFUQrVgHCJ0FpiQjCoun/8Jlb2Q8sO98M6ck1X+Q0q/lhqWKcAYrrK45YSqxEUEzbVRLAUPwwQ8tlmvarCJfM8y1NoO4Hh4/d9L9zk4s1KN9tqkcrXF6D7kpDzjDQCTgXxtE6bYwqt88fh+t0LGRvf+K6rdpnnNO30IykZeubkt1UNQQFagvceq8SjKHw7KK0rK/X/MxXDZ9XmO3EGrO6XbF2QsifYWYKI6NUm1bbZGaAXUur5PxiC/wLuYe3qlSW2elU5c0qnJohX466h+36exQzPSvlG8M9WVcePLk8PRBlhDgLFfbmhs8PDiEUygG1RrTElGJd4IF8EFiuhwM2uMvwW8PZxFUO5vmY28WQjNR5aEnDPXoHWk7lDDsSDIn1t/hsuT6skzXUBUCSBbCaWWugcVDcN20bwwXp8+3HxXZXihGbuZ64kHNGMFhZISnG6+bQ80C1Ab0rIPyhFSTd6NvRJzDXjL9mWCV3EwuAv35Hd3jQkVmq2/w7KvgmbnGA//b5Ooymd5MrsaNSvwwjKyo9hrYA4vdApwKxKQmNwvgzfB1+YaR02+4Vx7bx3/Yzfg4</source>
+  </file>
+  <file path="GisBuild.php" generated-path="GisBuild.html" hash="8dbf4ffa284a9c0872022b880529195b" package="Default">
+    <docblock line="0">
+      <description>Created by PhpStorm.</description>
+      <long-description>User: igor
+Date: 29.12.16
+Time: 21:22</long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="eagle\helperGis\libs" line="16" package="frontend\modules\map\libraries">
+      <extends/>
+      <name>GisBuild</name>
+      <full_name>\eagle\helperGis\libs\GisBuild</full_name>
+      <docblock line="16">
+        <description>Build db expression with postgis functions
+Class GisBuild</description>
+        <long-description></long-description>
+        <tag name="package" line="16" description="frontend\modules\map\libraries"/>
+      </docblock>
+      <constant namespace="eagle\helperGis\libs" line="18" package="frontend\modules\map\libraries">
+        <name>ROUND_AREA_SAVE</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::ROUND_AREA_SAVE</full_name>
+        <value>1.0E-7</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="eagle\helperGis\libs" line="19" package="frontend\modules\map\libraries">
+        <name>ESPG_MAP</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::ESPG_MAP</full_name>
+        <value>4326</value>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property static="false" visibility="protected" namespace="eagle\helperGis\libs" line="20" package="frontend\modules\map\libraries">
+        <name>$text_</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::text_</full_name>
+        <default>''</default>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="22" package="frontend\modules\map\libraries">
+        <name>__construct</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::__construct()</full_name>
+        <docblock line="22">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="eagle\helperGis\libs" line="29" package="frontend\modules\map\libraries">
+        <name>checkText_</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::checkText_()</full_name>
+        <docblock line="29">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="39" package="frontend\modules\map\libraries">
+        <name>asJson</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::asJson()</full_name>
+        <docblock line="39">
+          <description></description>
+          <long-description></long-description>
+          <tag name="see" line="39" description="as GeoJson" link="\eagle\helperGis\libs\Return"/>
+          <tag name="param" line="39" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="39" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="56" package="frontend\modules\map\libraries">
+        <name>buffer</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::buffer()</full_name>
+        <docblock line="56">
+          <description></description>
+          <long-description></long-description>
+          <tag name="see" line="56" description="ST_Buffer Function" link="\eagle\helperGis\libs\Use"/>
+          <tag name="param" line="56" description="" type="boolean|string" variable="$text">
+            <type>boolean</type>
+            <type>string</type>
+          </tag>
+          <tag name="param" line="56" description="" type="boolean|\eagle\helperGis\libs\number|string" variable="$radius">
+            <type>boolean</type>
+            <type>\eagle\helperGis\libs\number</type>
+            <type>string</type>
+          </tag>
+          <tag name="param" line="56" description="" type="boolean|string" variable="$type">
+            <type>boolean</type>
+            <type>string</type>
+          </tag>
+          <tag name="param" line="56" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="56" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean|string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$radius</name>
+          <default>false</default>
+          <type>boolean|\eagle\helperGis\libs\number|string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$type</name>
+          <default>false</default>
+          <type>boolean|string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="eagle\helperGis\libs" line="79" package="frontend\modules\map\libraries">
+        <name>json</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::json()</full_name>
+        <docblock line="79">
+          <description></description>
+          <long-description></long-description>
+          <tag name="see" line="79" description="as GeoJson" link="\eagle\helperGis\libs\Return"/>
+          <tag name="param" line="79" description="" type="" variable="$text"/>
+          <tag name="return" line="79" description="" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="eagle\helperGis\libs" line="84" package="frontend\modules\map\libraries">
+        <name>formJson</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::formJson()</full_name>
+        <docblock line="84">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$espg</name>
+          <default>self::ESPG_MAP</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="93" package="frontend\modules\map\libraries">
+        <name>text</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::text()</full_name>
+        <docblock line="93">
+          <description></description>
+          <long-description></long-description>
+          <tag name="see" line="93" description="result expression" link="\eagle\helperGis\libs\Get"/>
+          <tag name="param" line="93" description="" type="boolean" variable="$brackets">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="93" description="" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$brackets</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="eagle\helperGis\libs" line="104" package="frontend\modules\map\libraries">
+        <name>merge_</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::merge_()</full_name>
+        <docblock line="104">
+          <description>Add or change text</description>
+          <long-description></long-description>
+          <tag name="param" line="104" description="" type="" variable="$res"/>
+          <tag name="param" line="104" description="" type="" variable="$text"/>
+          <tag name="param" line="104" description="" type="" variable="$add"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$res</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="118" package="frontend\modules\map\libraries">
+        <name>share</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::share()</full_name>
+        <docblock line="118">
+          <description></description>
+          <long-description></long-description>
+          <tag name="see" line="118" description="ST_Intersection Function" link="\eagle\helperGis\libs\Use"/>
+          <tag name="param" line="118" description="" type="boolean|string" variable="$text">
+            <type>boolean</type>
+            <type>string</type>
+          </tag>
+          <tag name="return" line="118" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean|string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="132" package="frontend\modules\map\libraries">
+        <name>isShare</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::isShare()</full_name>
+        <docblock line="132">
+          <description></description>
+          <long-description></long-description>
+          <tag name="see" line="132" description="ST_Intersects function" link="\eagle\helperGis\libs\Use"/>
+          <tag name="param" line="132" description="" type="boolean|string" variable="$text">
+            <type>boolean</type>
+            <type>string</type>
+          </tag>
+          <tag name="param" line="132" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="132" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean|string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="144" package="frontend\modules\map\libraries">
+        <name>clear</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::clear()</full_name>
+        <docblock line="144">
+          <description>Clear text</description>
+          <long-description></long-description>
+          <tag name="param" line="144" description="" type="boolean" variable="$newText">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="144" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$newText</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="eagle\helperGis\libs" line="156" package="frontend\modules\map\libraries">
+        <name>squareGa</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::squareGa()</full_name>
+        <docblock line="156">
+          <description>Return expression for calculation square in ga</description>
+          <long-description></long-description>
+          <tag name="param" line="156" description="" type="string" variable="$text">
+            <type>string</type>
+          </tag>
+          <tag name="param" line="156" description="" type="integer" variable="$round">
+            <type>integer</type>
+          </tag>
+          <tag name="return" line="156" description="" type="string">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$round</name>
+          <default>2</default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="168" package="frontend\modules\map\libraries">
+        <name>union</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::union()</full_name>
+        <docblock line="168">
+          <description>use ST_Union function</description>
+          <long-description></long-description>
+          <tag name="param" line="168" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="168" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="168" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="181" package="frontend\modules\map\libraries">
+        <name>centroid</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::centroid()</full_name>
+        <docblock line="181">
+          <description>use ST_Centroid function</description>
+          <long-description></long-description>
+          <tag name="param" line="181" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="181" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="181" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="eagle\helperGis\libs" line="188" package="frontend\modules\map\libraries">
+        <name>inst</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::inst()</full_name>
+        <docblock line="188">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>''</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="199" package="frontend\modules\map\libraries">
+        <name>diff</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::diff()</full_name>
+        <docblock line="199">
+          <description>use ST_Difference function</description>
+          <long-description></long-description>
+          <tag name="param" line="199" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="199" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="199" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="212" package="frontend\modules\map\libraries">
+        <name>multi</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::multi()</full_name>
+        <docblock line="212">
+          <description>use ST_Difference function</description>
+          <long-description></long-description>
+          <tag name="param" line="212" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="212" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="212" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="226" package="frontend\modules\map\libraries">
+        <name>add</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::add()</full_name>
+        <docblock line="226">
+          <description>Add to text, before or after.</description>
+          <long-description></long-description>
+          <tag name="param" line="226" description="" type="" variable="$text"/>
+          <tag name="param" line="226" description="" type="boolean" variable="$brackets">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="226" description="" type="boolean" variable="$before">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="226" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$brackets</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$before</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="246" package="frontend\modules\map\libraries">
+        <name>simplifyPre</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::simplifyPre()</full_name>
+        <docblock line="246">
+          <description>Use ST_SimplifyPreserveTopology function</description>
+          <long-description></long-description>
+          <tag name="param" line="246" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="246" description="" type="boolean" variable="$tolerance">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="246" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="246" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$tolerance</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="264" package="frontend\modules\map\libraries">
+        <name>lineCurve</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::lineCurve()</full_name>
+        <docblock line="264">
+          <description>Use ST_LineToCurve function</description>
+          <long-description></long-description>
+          <tag name="param" line="264" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="264" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="264" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="277" package="frontend\modules\map\libraries">
+        <name>split</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::split()</full_name>
+        <docblock line="277">
+          <description>Split polygons by simple polygon</description>
+          <long-description></long-description>
+          <tag name="param" line="277" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="277" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="277" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="eagle\helperGis\libs" line="291" package="frontend\modules\map\libraries">
+        <name>asText</name>
+        <full_name>\eagle\helperGis\libs\GisBuild::asText()</full_name>
+        <docblock line="291">
+          <description>Return query as geo text</description>
+          <long-description></long-description>
+          <tag name="param" line="291" description="" type="boolean" variable="$text">
+            <type>boolean</type>
+          </tag>
+          <tag name="param" line="291" description="" type="boolean" variable="$add">
+            <type>boolean</type>
+          </tag>
+          <tag name="return" line="291" description="" type="\eagle\helperGis\libs\GisBuild">
+            <type>\eagle\helperGis\libs\GisBuild</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$text</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$add</name>
+          <default>false</default>
+          <type>boolean</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="22" code="PPC:ERR-50015">Argument $text is missing from the Docblock of __construct</error>
+      <error line="22" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="29" code="PPC:ERR-50015">Argument $text is missing from the Docblock of checkText_</error>
+      <error line="29" code="PPC:ERR-50008">No summary for method checkText_()</error>
+      <error line="39" code="PPC:ERR-50008">No summary for method asJson()</error>
+      <error line="56" code="PPC:ERR-50008">No summary for method buffer()</error>
+      <error line="79" code="PPC:ERR-50008">No summary for method json()</error>
+      <error line="84" code="PPC:ERR-50015">Argument $text is missing from the Docblock of formJson</error>
+      <error line="84" code="PPC:ERR-50015">Argument $espg is missing from the Docblock of formJson</error>
+      <error line="84" code="PPC:ERR-50008">No summary for method formJson()</error>
+      <error line="93" code="PPC:ERR-50008">No summary for method text()</error>
+      <error line="118" code="PPC:ERR-50015">Argument $add is missing from the Docblock of share</error>
+      <error line="118" code="PPC:ERR-50014">Name of argument $add does not match with the DocBlock's name $text in share()</error>
+      <error line="118" code="PPC:ERR-50008">No summary for method share()</error>
+      <error line="132" code="PPC:ERR-50008">No summary for method isShare()</error>
+      <error line="188" code="PPC:ERR-50015">Argument $text is missing from the Docblock of inst</error>
+      <error line="188" code="PPC:ERR-50008">No summary for method inst()</error>
+      <error line="20" code="PPC:ERR-50007">No summary for property $text_</error>
+    </parse_markers>
+    <source>eJzFWW1v2zYQ/p5fcQ2Cyg48p86GAnPndW6SBh3WNIjTfQpg0PJZZqu3klRbY+t/35GUKNmWnDiJM32S+XIvz91zR8q/vU7n6d7R4eEeHMKJQKZwCpMFXM7TkUpE1NXjHyWKPvAgEfrXKa3pw/Gv3d5xt/dSj1zzSI/0+sfH9PNoby9mEcqU+QjIghBv5himKM65vAn5RL7aKxS+yXg4hekE8HsqUEqexPCNqzmkiVQBlzDLYl/RqDTmhUxKIClmmx75g3R8ZgHCTCSxwnh6EyXTLER5E7FU6xJMcJTGKH959z97QI9PohVcffh4cToeXp0Nx6Ph32cwgBfdF+bpvaosOxtdno/fDy8hfwbwy8/HL+2KVCQKfQ3egcLvakyTnmen7Hw2Cbnv/IHx2MgUma9aZofZ0DZrrWn6OVBzLn/6vZBoFr5ys+5FoMpEbFfb6R8Vzc4yp9yfo//5Wgu1ulfV8hnkRj0bDGDGQoltN7nZLqvYhFc/FCKJCFfWQEb4Y/KnTGI3mzLBIpgkSWiluImqT/ngUS2STGqBDsSKtWs4rvldYglNmEsMZ/3+J6uinGlvG4ZVSIhTMLoev8lmMxTwNvemBpd/KUt4HJTmVVGqLIuzaIKiWH0g2JRn8i7yFinWhWPlOWDT6fbBmRj3loPTKYyrDGgjKj9JV1MoyzhRwdCkcSC2POgWeTso8hZeLwe0bwFsQ038TNrnpjUlvlbaJa0do8xC2c43VejuxBnHbhV24y2JM5u64N0UJWTdcb2tXTtrvY1QBEhpTms71mUL64Pz9jYq17LYOlaXKVIxVU2YT47Lq4HPRel4D6XWPfpw0fK6ViF0HRrV0levY0Z9rawZhAv1qsBRvajyDfr3Sf8I1ejq3WmLXsmQ6K1IImfQPjiT9r12Lry9v6k6nqMi6TILVaUP1lZI6mf+Z1Ty7vg6p7VJLSegiV1FKrh1r8GzIFc41NWpZ5hUDm7KmyGxORHUdVhMrbqmfuks3ZhG+VhZgo6aWltj3te1OF1mnj+Hu7c6x3wtv2QS0q6N/dGt3kCsoiO8o4OMkGjdWekLG8r5PbunnDOBa/V5Q/29vZUuVyBvxSVTpZdBpWxqqlH3aalOW3l83Ba+Kufu1fe4HD0psHI3sJ6EyEQdYy00MX67vlfW+Vpuq9h/CyKORW55pbl7phDlM9s7mHezyvVjpisVC/0sZJYgXzIKJPAYArYCwobU4bEi1idZvJY7d2+FVvM5c23KyCMgjptao7nHtFqgG9OQ7nL05pXtiKp2vx9gEgiWzhfQbsMR9PQlh4bp8IiC+x3Qtd7q6XqwdsCoBzGzvPsYG/yaT7KPTbJMK9w1xYxXu2FXjtsJxkokfPqU0Pm5zl2jV/j2iAA2sIXTbXrDTToXSYXCfQJYMn9jhE65vl9g7ONTxmhKWncdn9Kznab4/wNgRCdqvmsE3xslOwFPn5tVAlbGBKkzoT5Hsxk1/e4dzssNd4alSSN1e2jJIdeWVu8UnUIsDGpRNkfvctMAlMjWDt05j1f6V92FV4t7lmu809F9+SPabWf3UntnNcgPuErnR9URj9KQzxaXdPpA8RWvkzQJk2BxT5aoJETBiGWPxyFZWrjGJKeunl2wPb2Wc6SUv93dzO1b+SCzTt4m/Lfj832j/xePSeNJRoqfsiyGpNYo3XVprPi3mwI5ouApoJAtgiSW+m8Lk65YDD0BmFKb8LhAbsxY/b0JlVhc1CHaCTCmzFc4pmzmKFu9js6ziyzKt+mxta85Xrv98FDkF6kvGYqF/jhI94zme+PjhoDJa/Nta7fJnGt5cB7/+A+j54B/</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="frontend" full_name="frontend">
+    <package name="modules" full_name="frontend\modules">
+      <package name="map" full_name="frontend\modules\map">
+        <package name="libraries" full_name="frontend\modules\map\libraries"/>
+      </package>
+    </package>
+  </package>
+  <package name="global" full_name="global"/>
+  <namespace name="eagle" full_name="eagle">
+    <namespace name="helperGis" full_name="eagle\helperGis">
+      <namespace name="libs" full_name="eagle\helperGis\libs"/>
+    </namespace>
+  </namespace>
+  <deprecated count="0"/>
+</project>
