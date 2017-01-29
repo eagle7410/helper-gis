@@ -9,9 +9,12 @@
             "email": "orel1939@mail.ru"
         }
     ],
+    "require" : {
+        "php": ">=5.4.0"
+    },
     "require-dev": {
         "evert/phpdoc-md" : "~0.2.0",
         "phpdocumentor/phpdocumentor" : "2.*"
     },
-    "version": "1.0.0"
+    "version": "1.0.0@stable"
 }
