@@ -23,5 +23,8 @@
         "classmap": [
             "libs/"
         ]
+    },
+    "config": {
+        "no-dev": "true"
     }
 }
