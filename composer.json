@@ -16,5 +16,6 @@
         "evert/phpdoc-md" : "~0.2.0",
         "phpdocumentor/phpdocumentor" : "2.*"
     },
-    "version": "1.0.0@stable"
+    "minimum-stability": "stable",
+    "version": "1.0.0"
 }
