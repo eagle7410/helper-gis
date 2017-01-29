@@ -23,5 +23,23 @@
         "classmap": [
             "libs/"
         ]
-    }
+    },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/eagle7410/helper-gis"
+        },
+        {
+            "type":"package",
+            "package":{
+                "name":"eagle/helper-gis",
+                "version":"1.0.3",
+                "source":{
+                    "type":"git",
+                    "url":"https://github.com/eagle7410/helper-gis/tree/v1.0.0.0",
+                    "reference":"master"
+                }
+            }
+        }
+    ]
 }
