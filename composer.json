@@ -18,9 +18,5 @@
     },
     "minimum-stability": "stable",
     "version": "1.0.0-RC5",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.0"
-        }
-    }
+
 }
