@@ -18,5 +18,10 @@
         "phpdocumentor/phpdocumentor" : "2.*"
     },
     "minimum-stability": "stable",
-    "version": "1.0.1-stable"
+    "version": "1.0.1",
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/eagle7410/helper-gis/tree/1.0.0"
+    },
 }
