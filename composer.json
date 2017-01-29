@@ -17,8 +17,8 @@
         "evert/phpdoc-md" : "~0.2.0",
         "phpdocumentor/phpdocumentor" : "2.*"
     },
-    "minimum-stability": "dev",
-    "version": "1.0.0-RC5",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
     "extra": {
         "branch-alias": {
             "1.0.0": "1.0.0"
