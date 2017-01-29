@@ -23,5 +23,6 @@
     {
         "type": "vcs",
         "url": "https://github.com/eagle7410/helper-gis/tree/1.0.0"
-    },
+    }
+    ]
 }
