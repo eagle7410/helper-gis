@@ -2,6 +2,7 @@
     "name": "eagle/helper-gis",
     "description": "Helper for post gis",
     "type": "yii2-extension",
+    "keywords": ["gist","postgis"],
     "license": "MIT",
     "authors": [
         {
