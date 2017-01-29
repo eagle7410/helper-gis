@@ -10,12 +10,13 @@
         }
     ],
     "require" : {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "another-vendor/package": "1.*"
     },
     "require-dev": {
         "evert/phpdoc-md" : "~0.2.0",
         "phpdocumentor/phpdocumentor" : "2.*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "version": "1.0.0-RC5"
 }
